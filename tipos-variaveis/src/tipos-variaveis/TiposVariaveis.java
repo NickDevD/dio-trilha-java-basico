@@ -1,9 +1,16 @@
 public class TiposVariaveis {
     
     public static void main(String[] args) throws Exception {
-       
+
+        //Declarando Variável - Estrutura Padrão
+        
+        //<Tipo> <nomeVariavel> <atribuiçãoDeValorOpcional>
+        
         //Variável
         int numero = 5;
+        //Tipo = int
+        //NomeVariavel = numero
+        //Valor = 5
 
         //Alterando a Variável
         numero = 10;
