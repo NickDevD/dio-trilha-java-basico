@@ -1,6 +1,7 @@
 package operadores;
 
 public class operadores {
+
     public static void main(String[] args) {
         
     //classe Operdaores.java
@@ -21,10 +22,21 @@ public class operadores {
     //int modulo = 18 % 3;
     //double resultado = (10 * 7) + (20/4);
 
+    //soma
+    int soma = 10 + 5;
+    //subtração
+    int subtração = 10 - 5;
+    //multiplicação   
+    int multiplicação = 2 * 3;
+    //divisão 
+    int divisão = 6/2;
+
+        System.out.println(divisão);
+    
     //CONCATENAÇÃO
     String nomeCompleto = "LINGUAGEM " + "JAVA";
     
-    System.out.println(nomeCompleto);
+        System.out.println(nomeCompleto);
 
     }
 

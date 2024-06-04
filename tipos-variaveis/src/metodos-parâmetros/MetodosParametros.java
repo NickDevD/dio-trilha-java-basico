@@ -1,11 +1,9 @@
-public class MetodosParametros {
-
+public class metodosparametros {
+    
     public static void main(String[] args) {
         
         int numero = 2;
-        int numero2 = 3;
-
-        System.out.println(numero2);
-
+        
+        System.out.println(numero);
     }
 }
