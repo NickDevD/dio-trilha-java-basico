@@ -29,6 +29,9 @@ public class Usuario {
 
         smartTV1.mudarCanal(15);
         System.out.println("Novo Canal: " + smartTV1.canal);
+
+        smartTV1.alterarVolume(12);
+        System.out.println("Volume Atual: " + smartTV1.volume);
         
     }
 }

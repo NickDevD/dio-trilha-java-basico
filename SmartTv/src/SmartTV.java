@@ -42,6 +42,9 @@ public class SmartTV {
     public void desligar(){
         ligada = false;
     }
+    public void alterarVolume(int novoVolume){
+        volume = novoVolume;
+    }
     
     
 }
