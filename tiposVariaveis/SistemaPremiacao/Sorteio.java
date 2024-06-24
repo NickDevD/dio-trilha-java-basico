@@ -1,22 +1,33 @@
 package tiposVariaveis.SistemaPremiacao;
 
-import java.util.Scanner;
 
 public class Sorteio {
     
     public static void main(String[] args) {
         
-        Scanner sorteio = new Scanner(System.in);
-
         
-        int numero = sorteio.nextInt();
-        System.out.println("Digite seu numero da sorte: ");
+        int numero = 10;
         
-        if(numero == 10)
-        System.out.println("Parabens, voce ganhou!!!");
 
-        else
-        System.err.println("Que pena, não foi desta vez!");
+        switch (numero) {
+            case 10 : {
+                System.out.println("Parabens, seu numero foi sorteado");
+                //break;
+            }
+            case 20 : {
+                System.out.println("Uau, o premio dobrou!");
+                System.out.println("Ganhe muito mais com o bonus");
+                break;
+            }
+            default: {
+                System.err.println("Nao foi desta vez!");
+                System.out.println("Boa sorte na proxima");
+                break;
+            }
+                
+        }
+        
+       
        
         
     }
