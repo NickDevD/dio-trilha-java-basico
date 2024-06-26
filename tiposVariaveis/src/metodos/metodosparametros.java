@@ -1,3 +1,5 @@
+package metodos;
+
 public class metodosparametros {
     
     public static void main(String[] args) {
