@@ -21,7 +21,7 @@ public class Teste {
         teste.ola();
 
     }
-    //metodo criado fora, sem a classe (static)
+    //metodo criado fora do método main, sem a classe (static)
     void ola() {
         System.out.println("Olá " + nome);
     }
