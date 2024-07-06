@@ -14,7 +14,7 @@ public class ExemploWhile {
                 if(valorDoce > mesada)
                 valorDoce = mesada;
 
-            System.out.println("Doce do valor: " + valorDoce + " Adicinado no carrinho");
+            System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
             mesada = mesada - valorDoce;
         }
 

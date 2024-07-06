@@ -9,7 +9,7 @@ int age;
 String color;
 String sex;
 
-//métodos/ações
+//métodos/ações sem retorno
 static void eat(){
 
 }

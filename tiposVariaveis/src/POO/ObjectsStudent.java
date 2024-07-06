@@ -27,5 +27,6 @@ public class ObjectsStudent {
         student3.age = 11;
         student3.color = "Dark";
         student3.sex = "Female";
+
     }
 }
