@@ -9,7 +9,7 @@ public class SistemaCadastro {
         Pessoa joao = new Pessoa();
 
         //definimos o endereço de marcos
-        marcos.setEndereco("Rua da Marias");
+        marcos.setEndereco("Rua das Marias");
         
         //mas não temos as definições de nome e CPF pois os "sets" não foram atribuídos
 

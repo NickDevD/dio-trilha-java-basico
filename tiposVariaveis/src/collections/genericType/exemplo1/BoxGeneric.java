@@ -1,4 +1,4 @@
-package collections.genericType;
+package collections.genericType.exemplo1;
 
 // Classe genérica
 public class BoxGeneric<String> {

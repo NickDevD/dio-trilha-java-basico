@@ -1,6 +1,4 @@
-package POO;
-
-
+package POO.objetosPadrao;
 
 public class ObjectsStudent {
     

@@ -1,4 +1,4 @@
-package POO;
+package POO.objetosPadrao;
 
 //classe aluno criada
 public class Student {

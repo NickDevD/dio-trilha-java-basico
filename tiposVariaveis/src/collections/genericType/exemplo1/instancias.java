@@ -1,4 +1,4 @@
-package collections.genericType;
+package collections.genericType.exemplo1;
 
 public class instancias {
     
@@ -15,7 +15,7 @@ public class instancias {
         
 
         //chamando os valores do onjeto criado
-
+        System.out.println(Box.get(box));
         
     }
     
