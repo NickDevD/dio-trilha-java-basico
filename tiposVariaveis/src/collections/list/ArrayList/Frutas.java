@@ -10,6 +10,7 @@ public class Frutas {
 
         frutas.add("Maça");
         frutas.add("uva");
+        frutas.add("Uva verde");
 
         frutas.remove("");
 
