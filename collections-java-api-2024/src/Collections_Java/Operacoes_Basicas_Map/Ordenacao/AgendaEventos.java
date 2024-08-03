@@ -1,4 +1,4 @@
-package Operacoes_Basicas_Map.Ordenacao;
+package Collections_Java.Operacoes_Basicas_Map.Ordenacao;
 
 import com.sun.source.tree.Tree;
 

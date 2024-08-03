@@ -20,8 +20,10 @@ public class CarrinhoDeCompras {
 
       // Método Stream simplifica muito o código
       return itemList.stream()
-            // pegou todos os itens do carrinho e multiplicou pelo preço
+            
+      // pegou todos os itens do carrinho e multiplicou pelo preço
           .mapToDouble(item -> item.getPreco() * item.getQtd())
+          
           // retornou a soma da operação
           .sum();
     }

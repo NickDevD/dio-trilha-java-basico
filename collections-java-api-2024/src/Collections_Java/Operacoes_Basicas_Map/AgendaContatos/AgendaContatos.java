@@ -1,4 +1,4 @@
-package Operacoes_Basicas_Map.AgendaContatos;
+package Collections_Java.Operacoes_Basicas_Map.AgendaContatos;
 
 import java.util.HashMap;
 import java.util.Map;

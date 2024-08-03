@@ -1,4 +1,4 @@
-package Operacoes_Basicas_Set.Pesquisa.AgendaContatos;
+package Collections_Java.Operacoes_Basicas_Set.Pesquisa.AgendaContatos;
 
 import java.util.Objects;
 

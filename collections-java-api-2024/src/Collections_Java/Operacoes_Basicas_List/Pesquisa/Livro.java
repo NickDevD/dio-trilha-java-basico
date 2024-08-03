@@ -1,4 +1,4 @@
-package Operacoes_Basicas_List.Pesquisa;
+package Collections_Java.Operacoes_Basicas_List.Pesquisa;
 
 public class Livro {
 

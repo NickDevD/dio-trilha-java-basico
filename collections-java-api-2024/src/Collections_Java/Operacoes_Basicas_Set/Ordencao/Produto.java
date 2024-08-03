@@ -1,4 +1,4 @@
-package Operacoes_Basicas_Set.Ordencao;
+package Collections_Java.Operacoes_Basicas_Set.Ordencao;
 
 import java.util.Comparator;
 import java.util.Objects;
