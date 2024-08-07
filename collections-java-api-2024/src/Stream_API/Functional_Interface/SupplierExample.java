@@ -1,4 +1,4 @@
-package Stream_API;
+package Stream_API.Functional_Interface;
 
 
 import java.util.List;

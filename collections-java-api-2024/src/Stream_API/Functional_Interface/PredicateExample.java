@@ -1,4 +1,4 @@
-package Stream_API;
+package Stream_API.Functional_Interface;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +15,14 @@ public class PredicateExample {
         List<String> palavras = Arrays.asList("java", "kotlin", "python", "javaScript");
 
         // Criar um Predicate que verifica se a palavra tem mais de 5 caracteres
-        Predicate<String> MaisdeCincoCaracteres = palavra -> palavra.length() > 5;
+
+        Predicate<String> maisDeCincoCaracteres = palavra -> palavra.length() > 5;
+
+        // Usar o Stream para filtrar as palavras com mais de 5 caracteres e,
+        // em seguida, imprimir cada palavra
+        palavras.stream()
+                .filter(p -> p.length() > 5)
+                .forEach(System.out::println);
     }
 
 }

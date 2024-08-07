@@ -1,7 +1,6 @@
-package Stream_API;
+package Stream_API.Functional_Interface;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;

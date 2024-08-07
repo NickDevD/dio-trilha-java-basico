@@ -1,15 +1,13 @@
-package Stream_API;
+package Stream_API.Functional_Interface;
 
  /*
     * Representa uma função que aceita um argumento do tipo T e retorna um resultado do tipo R.
     * É utilizada para transformar ou mapear os elementos do Stream em outros valores ou tipo.
  */
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class FunctionExample {
 
